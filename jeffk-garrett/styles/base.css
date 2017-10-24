@@ -1,0 +1,23 @@
+.site-header {
+  background-color: moccasin;
+}
+.heading-group-h1 h1, h2 {
+  width: 50%;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+hr {
+  color: wheat;
+  border-top: 2px solid lightgray;
+  margin-right: 10px;
+}
+li {
+  list-style-type: none;
+  margin-left: 5px;
+  font-family: 'Droid Serif', serif;
+}
+ul {
+  padding: 0px;
+}
