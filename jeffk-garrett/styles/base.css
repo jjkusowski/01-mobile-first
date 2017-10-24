@@ -1,8 +1,9 @@
 * {
   border: 1px solid red;
 }
+
 .site-header {
-  background-color: moccasin;
+  background-color: rgb(253,234,177);
 }
 .heading-group-h1 h1, h2 {
   width: 50%;
@@ -19,6 +20,10 @@ li {
   margin-left: 5px;
   font-family: 'Droid Serif', serif;
   font-size: 20px;
+}
+
+p, h1, h2 {
+  font-family: 'Roboto', sans-serif;
 }
 .icon-menu {
   display: none;
