@@ -1,3 +1,6 @@
+* {
+  border: 1px solid red;
+}
 .site-header {
   background-color: moccasin;
 }
@@ -8,16 +11,15 @@ a {
   color: gray;
   text-decoration: none;
 }
-hr {
-  color: wheat;
-  border-top: 2px solid lightgray;
-  margin-right: 10px;
-}
 li {
+  border-bottom: 0px;
+  width: 20%;
+  display: inline-block;
   list-style-type: none;
   margin-left: 5px;
   font-family: 'Droid Serif', serif;
+  font-size: 20px;
 }
-ul {
-  padding: 0px;
+.icon-menu {
+  display: none;
 }
