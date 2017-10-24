@@ -1,3 +1,17 @@
+img {
+  max-width: 90%;
+  height: auto;
+  margin: 0px 5%;
+}
+.byline > address, time {
+  display: inline;
+  color: gray;
+}
+
+.byline {
+  color: gray;
+}
+
 @media only screen and (max-width: 640px){
   .icon-menu {
     display: block;
@@ -8,6 +22,12 @@
     padding: 10px 0px;
     width: auto;
     border-bottom: 2px solid lightgray;
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+  div:hover ~ .nav-list {
     display: block;
   }
   ul {
